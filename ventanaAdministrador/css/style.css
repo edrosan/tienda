@@ -1,0 +1,94 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: rgb(252, 252, 252);
+    font-family: "Roboto", sans-serif;
+}
+
+#cabecera{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25%;
+    background-color:rgb(255, 255, 255);
+    width: 90%;
+    margin-left:5%;
+    margin-top: 1%;
+    box-shadow: 0px 0px 30px 0.1px rgba(85, 85, 85, 0.151);
+    border-radius: 15px;
+    text-align: center;
+}
+#cabeceraLogo{
+    margin: 2%;
+}
+#cabeceraDatos{
+    width:100%;
+
+}
+
+#formulario{
+    background-color:rgb(255, 255, 255) ;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    /* border: 1px solid #ddd; */
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px 0.1px rgba(85, 85, 85, 0.185);
+}
+#formulario #titulo{
+    margin-top: 5%;
+    height: 35px;
+}
+#formulario #imagen{
+    height: 35px;
+}
+#formulario input, textarea {
+    display: block;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 20px;
+    border: 0.5px solid rgb(233, 233, 233);
+    box-shadow: 0px 0px 30px 0.1px rgba(85, 85, 85, 0.164);
+    border-radius: 10px;
+    outline: none;
+}
+
+#formulario button{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    
+    width: 15%;
+    height:30px;
+    border: 0.5px solid rgb(233, 233, 233);
+    border-radius: 10px;
+    background-color: rgba(240, 240, 240, 0.137);
+    cursor: pointer;
+}
+
+#formulario textarea {
+    height: 100px;
+}
+#botonAgregar{
+    margin-left: 9.5%;
+}
+
+#botonAgregar:hover, #botonBuscar:hover, #botonActualizar:hover{
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 30px 0.1px rgba(146, 146, 146, 0.281);
+    border: 0.5px solid rgb(238, 238, 238);
+
+
+
+}
+#botonBuscar, #botonActualizar, #botonEliminar{
+    margin-left: 6.5%;
+
+}
+#botonEliminar:hover{
+    background: rgb(255, 17, 0);
+    color: white;
+    box-shadow: 0px 0px 20px .1px rgba(212, 0, 0, 0.568);
+    border: 0.5px solid rgb(255, 0, 0);
+
+
+    }
